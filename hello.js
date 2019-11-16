@@ -13,3 +13,27 @@ figlet('Hello CS 290!', function (err, data) {
     console.log(data);
   }
 });
+
+
+
+// function makeCounter(start) {
+//   var curr = start;
+//   return function() {
+//     curr += 1;
+//     return curr;
+//   };
+// }
+//
+//
+// var counter1 = makeCounter(10);
+// var counter2 = makeCounter(150);
+// console.log(counter1());
+// console.log(counter1());
+// console.log(counter1());
+// console.log(counter1());
+// console.log(counter1());
+// console.log(counter2());
+// console.log(counter2());
+// console.log(counter2());
+// console.log(counter2());
+// console.log(counter2());
